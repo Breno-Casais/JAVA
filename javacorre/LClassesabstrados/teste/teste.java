@@ -1,8 +1,7 @@
-package javacorre.LClassesabstrados.teste;
+package JAVA.javacorre.LClassesabstrados.teste;
 
-import javacorre.LClassesabstrados.classes.Funcionario;
-import javacorre.LClassesabstrados.classes.Gerente;
-import javacorre.LClassesabstrados.classes.Vendendor;
+import JAVA.javacorre.LClassesabstrados.classes.Gerente;
+import JAVA.javacorre.LClassesabstrados.classes.Vendendor;
 
 public class teste {
     public static void main(String[] args) {
@@ -14,5 +13,9 @@ public class teste {
 
         System.out.println(v1);
         System.out.println(g1);
+
+        System.out.println("#################");
+
+        g1.imprimi();
     }
 }

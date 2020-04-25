@@ -1,6 +1,4 @@
-package javacorre.LClassesabstrados.classes;
-
-import javacorre.LClassesabstrados.classes.Funcionario;
+package JAVA.javacorre.LClassesabstrados.classes;
 
 public class Vendendor extends Funcionario {
     private double totalvendas;
@@ -25,5 +23,14 @@ public class Vendendor extends Funcionario {
     @Override
     public void calcularsalario() {
         this.salario = (salario*1.1);
+    }
+
+    public void calcularFuturoProjeto() {
+        this.salario = this.salario*1.5;
+    }
+
+    @Override
+    public void imprimi() {
+        super.toString();
     }
 }

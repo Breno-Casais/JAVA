@@ -1,7 +1,7 @@
-package javacorre.LClassesabstrados.classes;
+package JAVA.javacorre.LClassesabstrados.classes;
 
-public abstract class Funcionario {
-    protected String nome;
+public abstract class Funcionario extends Pessoa {
+
     protected String clt;
     protected double salario;
 
@@ -25,7 +25,7 @@ public abstract class Funcionario {
     }
 
     public abstract void calcularsalario();
-
+    public abstract void calcularFuturoProjeto();
     public String getNome() {
         return nome;
     }
